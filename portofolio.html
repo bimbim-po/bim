@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portofolio</title>
+  <link rel="stylesheet" href="portofolio.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <button class="dark-toggle" onclick="toggleDarkMode()">🌙</button>
+    <div class="logo"></div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="profile">
+  <div class="profile-container">
+    <img src="cobacoba.jpg" alt="Foto Profil" class="profile-img">
+    <h1 class="name">Bim Darmawa</h1>
+    <h3 class="title">Mahasiswa | Web Developer | Tech Enthusiast</h3>
+    <p class="bio">
+      Saya adalah seorang mahasiswa yang passionate di dunia teknologi dan pengembangan web. 
+      Fokus saya adalah menciptakan solusi digital yang berdampak dan elegan.
+    </p>
+  </div>
+</section>
+
+
+  <section id="projects" class="projects">
+  <h2>My Projects</h2>
+  <div class="project-list">
+    
+    <div class="project-card">
+      <h3>Web Kalkulator C</h3>
+      <p>Program kalkulator berbasis C yang mendukung operasi aritmatika, trigonometri, dan geometri. Dibuat untuk memenuhi tugas kuliah pemrograman dasar.</p>
+      <a href="https://github.com/namakamu/kalkulator-c" class="project-btn" target="_blank">Lihat Proyek</a>
+    </div>
+
+    <div class="project-card">
+      <h3>Portofolio Web</h3>
+      <p>Website portofolio pribadi menggunakan HTML dan CSS, menampilkan informasi diri, proyek, dan kontak. Desain responsive dan bersih.</p>
+      <a href="https://github.com/namakamu/portofolio-web" class="project-btn" target="_blank">Lihat Proyek</a>
+    </div>
+
+    <div class="project-card">
+      <h3>Analisis Usability Aplikasi</h3>
+      <p>Menganalisis aplikasi SIASAT menggunakan 10 heuristik usability dari Nielsen. Menilai user interface dan pengalaman pengguna berdasarkan studi kasus nyata.</p>
+      <a href="file/analisis-usability.pdf" class="project-btn" target="_blank">Lihat File</a>
+    </div>
+
+  </div>
+</section>
+
+<section id="skills" class="skills">
+  <h2>My Skills</h2>
+  <div class="skill-list">
+
+    <div class="skill">
+      <h3>HTML</h3>
+      <div class="skill-bar">
+        <div class="skill-level html">50%</div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <h3>CSS</h3>
+      <div class="skill-bar">
+        <div class="skill-level css">50%</div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <h3>Python Programming</h3>
+      <div class="skill-bar">
+        <div class="skill-level c">80%</div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <h3>JavaScript</h3>
+      <div class="skill-bar">
+        <div class="skill-level js">70%</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="experience" class="experience">
+  <h2>Experience & Education</h2>
+  <div class="timeline">
+
+    <div class="timeline-item">
+      <h3>Universitas Kristen Satya Wacana</h3>
+      <span class="timeline-date">2024 – Sekarang</span>
+      <p>Mahasiswa aktif jurusan Teknik Informatika. Fokus pada pengembangan perangkat lunak dan ilmu komputer.</p>
+    </div>
+
+    <div class="timeline-item">
+      <h3>SMA Negeri 2 Salatiga</h3>
+      <span class="timeline-date">2021 – 2024</span>
+      <p>Aktif di organisasi OSIS dan tim lomba tingkat provinsi.</p>
+    </div>
+  </div>
+</section>
+
+<section id="certificates" class="certificates">
+  <h2>Sertifikat</h2>
+  <div class="certificate-list">
+
+    <div class="certificate-card">
+      <h3>Machine Learning & Artificial Intelligence Beginners Course</h3>
+      <p>Udemy</p>
+      <a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-2c9426a7-8cf2-4ed5-9c02-5309e6f5005b.pdf" target="_blank" class="cert-btn">Lihat Sertifikat</a>
+    </div>
+
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Contact Me</h2>
+  <p>Jika kamu ingin bekerja sama, bertanya, atau hanya menyapa — jangan ragu untuk menghubungi saya melalui:</p>
+
+  <div class="contact-info">
+    <p><strong>Email:</strong> <a href="mailto:bimdarmawa2@gmail.com">bimdarmawa2@gmail.com</a></p>
+    <p><strong>WhatsApp:</strong> <a href="https://wa.me/6281234567890" target="_blank">+62 877-6485-0479</a></p>
+    <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/bimdarmawa" target="_blank">linkedin.com/in/bimdarmawa</a></p>
+    <p><strong>GitHub:</strong> <a href="https://github.com/bimdarmawa" target="_blank">github.com/bimbim-po</a></p>
+  </div>
+</section>
+
+<script>
+  function toggleDarkMode() {
+    document.body.classList.toggle('dark-mode');
+  }
+</script>
+
+</body>
+</html>
