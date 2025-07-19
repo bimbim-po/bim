@@ -1,2 +1,2 @@
 # bim
-web
+portofolio
