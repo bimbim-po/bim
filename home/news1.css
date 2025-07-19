@@ -1,0 +1,136 @@
+/* Tambahkan ini di bagian atas CSS kamu */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* darkmode========================= */
+
+.dark-mode .body {
+  height: 100%;
+  width: 100%;
+}
+
+.dark-mode .html, body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.dark-mode .news-detail-section {
+  height: 100%;
+  width: 100%;
+  background-color: #9a7575; /* atau background: #000; */
+}
+
+.dark-mode .news-heading h1{
+  color: thistle;
+}
+
+/* end darkmode===================== */
+
+/* =============================glass floating==================================== */
+
+.glass-floating {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 16px;
+  padding: 10px 16px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  z-index: 999;
+}
+
+.icon-btn {
+  width: 48px;
+  height: 48px;
+  background: rgba(255, 255, 255, 0.25);
+  border: none;
+  border-radius: 50%;
+  color: white;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  cursor: pointer;
+  backdrop-filter: blur(8px);
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.icon-btn:hover {
+  background: rgba(255, 255, 255, 0.35);
+  transform: scale(1.1);
+}
+
+/* =============================================================================== */
+.news-detail-section {
+  padding: 2rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.news-glass {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  max-width: 800px;
+  padding: 2rem;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.3);
+  color: #f0f0f0;
+}
+
+.news-heading {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #90cdf4;
+}
+
+.news-date {
+  font-size: 0.9rem;
+  color: #ccc;
+  margin-bottom: 1.5rem;
+}
+
+.news-image {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+}
+
+.news-paragraph {
+  font-size: 1rem;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .news-glass {
+    padding: 1.5rem;
+    margin: 0 1rem;
+  }
+
+  .news-heading {
+    font-size: 1.6rem;
+  }
+
+  .news-paragraph {
+    font-size: 0.95rem;
+  }
+}

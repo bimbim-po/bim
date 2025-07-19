@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portofolio</title>
+  <link rel="stylesheet" href="portofolio.css">
+</head>
+<body>
+
+<div class="glass-floating">
+  <button onclick="toggleDarkMode()" class="icon-btn">🌗</button>
+  <a href="https://wa.me/6281234567890" target="_blank" class="icon-btn">📞</a>
+</div>
+
+
+<header class="navbar">
+  <div class="logo">Bim Darmawa heree</div>
+  <nav class="nav-links">
+    <a href="#home">Home</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="hamburger" onclick="toggleMenu()">☰</div>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#home">Home</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </div>
+</header>
+
+<!-- ================================profile========================================= -->
+
+<div class="profile-background">
+  <section class="profile-section" id="profile">
+    <div class="profile-image">
+      <img src="cobacoba.jpg" alt="Foto Profil Bim" />
+    </div>
+    <div class="profile-bio">
+      <h1>Bim Darmawa</h1>
+      <h3>Student at UKSW | DS</h3>
+      <p>I am a computer science student with a good default of data and web development.
+         I'm also deeply interested in artificial intelligence, machine learning, and deep learning.</p>
+    </div>
+  </div>
+</section>
+
+<!--===============================================NEWS==================================================-->
+
+<section class="news-section" id="news">
+  <h2>Berita Terbaru</h2>
+  <div class="news-container">
+
+    <a class="news-card">
+      <img src="news1.2.jpg" alt="News 1">
+      <h4>DLI NVIDIA</h4>
+      <p>Deep Learning Institude, belajar dan praktek bersama serta memahami bagaimana Deep Learning bekerja</p>
+    </a>
+
+  </div>
+</section>
+
+<!--================================================PROJECT==============================================-->
+
+  <section class="projects-section" id="projects">
+  <h2>My Projects</h2>
+  <div class="project-grid">
+    <div class="project-card">
+      <h3>Portfolio Website</h3>
+      <p>Website pribadi untuk menampilkan profil dan karya.</p>
+    </div>
+    <div class="project-card">
+      <h3>To-do App</h3>
+      <p>Aplikasi produktivitas sederhana dengan fitur daftar tugas.</p>
+    </div>
+    <div class="project-card">
+      <h3>Weather App</h3>
+      <p>Menampilkan cuaca realtime berdasarkan lokasi pengguna.</p>
+    </div>
+  </div>
+</section>
+
+<!--=========================================SKILLS==========================================-->
+
+<section class="skills-section" id="skills">
+  <div class="skill-card">
+    <h2>Focus</h2>
+    <div class="skill-item">
+      <span>Python</span>
+      <div class="progress-bar" data-percent="80%"><div class="progress"></div></div>
+    </div>
+    <div class="skill-item">
+      <span>MYSQL</span>
+      <div class="progress-bar" data-percent="75%"><div class="progress"></div></div>
+    </div>
+    <div class="skill-item">
+      <span>Jamovi</span>
+      <div class="progress-bar" data-percent="85%"><div class="progress"></div></div>
+    </div>
+    <div class="skill-item">
+      <span>Tableu</span>
+      <div class="progress-bar" data-percent="85%"><div class="progress"></div></div>
+    </div>
+  </div>
+
+  <div class="skill-card">
+    <h2>Understanding</h2>
+    <div class="skill-item">
+      <span>Bootstrap</span>
+      <div class="progress-bar" data-percent="50%"><div class="progress"></div></div>
+    </div>
+    <div class="skill-item">
+      <span>JavaScript</span>
+      <div class="progress-bar" data-percent="50%"><div class="progress"></div></div>
+    </div>
+    <div class="skill-item">
+      <span>HTML</span>
+      <div class="progress-bar" data-percent="85%"><div class="progress"></div></div>
+    </div>
+    <div class="skill-item">
+      <span>CSS</span>
+      <div class="progress-bar" data-percent="85%"><div class="progress"></div></div>
+    </div>
+  </div>
+</section>
+
+<!--=========================================EXPERIENCE==========================================-->
+
+<section class="glass-section" id="experience">
+  <h2 class="glass-title">Experience & Education</h2>
+
+  <div class="glass-flex">
+    <div class="glass-box">
+      <h3>smp Negeri 8 Salatiga</h3>
+      <span>2019 – 2021</span>
+      <p>Aktif dalam organisasi OSIS</p>
+    </div>
+    <div class="glass-box">
+      <h3>SMA Negeri 2 Salatiga</h3>
+      <span>2021 – 2024</span>
+      <p>Aktif dalam OSIS sebagai Ketua dan Forum Osis Kota Salatiga</p>
+    </div>
+    <div class="glass-box">
+      <h3>🎓 S1 Informatika – UKSW</h3>
+      <span>2024 – Sekarang</span>
+      <p>Fokus kepada pengembangan AI dan Data Scientist</p>
+    </div>
+  </div>
+</section> 
+
+<!-- =============================certificate===================================== -->
+
+<section class="certificate-section" id="certificate">
+  <h2>🎓 Sertifikat Saya</h2>
+  <div class="certificate-grid">
+    <a href="certificates/frontend.pdf" target="_blank" class="certificate-card">
+      <img src="certif1.jpg" alt="Frontend Certificate">
+      <h4>Frontend Web Development</h4>
+    </a>
+    <a href="certificates/uiux.pdf" target="_blank" class="certificate-card">
+      <img src="NVIDIA_Certified.jpg" alt="UI/UX Certificate">
+      <h4>UI/UX Design Fundamentals</h4>
+    </a>
+    <a href="https://www.life-global.org/certificate/3499cb7b-c6a3-4626-ad74-7f61a5e3ca69" target="_blank" class="certificate-card">
+      <img src="hp_certified.png" alt="UI/UX Certificate">
+      <h4>UI/UX Design Fundamentals</h4>
+    </a>
+    <!-- Tambahkan lagi sesuai kebutuhan -->
+  </div>
+</section>
+
+<!--==============================contact====================================-->
+
+<section id="contact" class="contact">
+  <h2>Contact Me</h2>
+  <p>Jika kamu ingin bekerja sama, bertanya, atau hanya menyapa — jangan ragu untuk menghubungi saya melalui:</p>
+
+  <div class="contact-info">
+    <p><strong>Email:</strong> <a href="mailto:bimdarmawa2@gmail.com">bimdarmawa2@gmail.com</a></p>
+    <p><strong>WhatsApp:</strong> <a href="https://wa.me/6281234567890" target="_blank">+62 877-6485-0479</a></p>
+    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/bim-darmawa-16307a2bb/" target="_blank">linkedin.com/in/bimdarmawa</a></p>
+    <p><strong>GitHub:</strong> <a href="https://github.com/bimdarmawa" target="_blank">github.com/bimbim-po</a></p>
+  </div>
+</section>
+
+<script src="portofolio.js"></script>
+ 
+</body>
+</html>
